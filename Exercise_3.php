@@ -6,8 +6,8 @@
     <title>Login Form</title>
     <style>
         body {
-            font-family: Arial, sans-serif; /* Changed font style */
-            background-color: #6495ED; /* Changed background color to blue */
+            font-family: Arial, sans-serif; 
+            background-color: #6495ED; 
             margin: 0;
             padding: 0;
             display: flex;
@@ -21,12 +21,12 @@
             padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             text-align: center;
-            max-width: 400px; /* Adjusted max-width */
-            width: 90%; /* Adjusted width */
+            max-width: 400px; 
+            width: 90%; 
         }
         h2 {
             margin-bottom: 20px;
-            color: #333; /* Darker text color */
+            color: #333;
         }
         form {
             display: flex;
@@ -35,7 +35,7 @@
         }
         label {
             margin-bottom: 10px;
-            color: #333; /* Darker text color */
+            color: #333; 
         }
         input[type="text"],
         input[type="password"] {
@@ -46,7 +46,7 @@
             width: 250px;
         }
         button {
-            background-color: #4169E1; /* Changed button color to blue */
+            background-color: #4169E1; 
             color: white;
             padding: 10px 20px;
             border: none;
@@ -54,11 +54,11 @@
             cursor: pointer;
         }
         button:hover {
-            background-color: #1E90FF; /* Changed button hover color to a lighter blue */
+            background-color: #1E90FF; 
         }
         .message {
             margin-top: 20px;
-            color: #333; /* Darker text color */
+            color: #333;
         }
         .success {
             color: green;
@@ -80,15 +80,13 @@
         </form>
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            // Dummy username and password for validation
+          
             $valid_username = "user";
             $valid_password = "1234";
             
-            // Retrieve username and password from the form
             $username = $_POST['username'];
             $password = $_POST['password'];
             
-            // Validate login
             if ($username === $valid_username && $password === $valid_password) {
                 echo "<p class='message success'>Login successful! Welcome, $username!</p>";
             } else {
