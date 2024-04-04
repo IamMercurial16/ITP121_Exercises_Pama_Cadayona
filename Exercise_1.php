@@ -36,7 +36,7 @@
         }
         label {
             margin-bottom: 10px;
-            font-family: 'Times New Roman', Times, serif; /* Changed font style */
+            font-family: 'Times New Roman', Times, serif;
             color: #555;
         }
         input[type="number"] {
@@ -69,7 +69,6 @@
             <button type="submit">Submit</button>
         </form>
         <?php
-        // Your PHP code goes here
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Retrieve age from the form
             $age = $_POST['age'];
@@ -82,8 +81,7 @@
             } else {
                 $classification = "senior citizen";
             }
-            
-            // Display feedback
+        
             echo "<p>Your age is $age years old. You are classified as a $classification.</p>";
         }
         ?>
