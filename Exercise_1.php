@@ -56,7 +56,7 @@
             width: 100%; 
         }
         button:hover {
-            background: linear-gradient(45deg, #4169E1, #6495ED); /* Changed button hover color */
+            background: linear-gradient(45deg, #4169E1, #6495ED);
         }
     </style>
 </head>
@@ -70,10 +70,8 @@
         </form>
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            // Retrieve age from the form
             $age = $_POST['age'];
             
-            // Classify the user based on age
             if ($age < 18) {
                 $classification = "minor";
             } elseif ($age >= 18 && $age < 65) {
