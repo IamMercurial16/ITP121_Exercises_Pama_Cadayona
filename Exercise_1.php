@@ -6,14 +6,14 @@
     <title>User Age Classifier</title>
     <style>
         body {
-            font-family: Arial, sans-serif; /* Changed font style */
-            background: #6495ED; /* Changed background color to blue */
+            font-family: Arial, sans-serif;
+            background: #6495ED;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Changed height to 100vh */
+            height: 100vh;
         }
         .container {
             background-color: #fff;
@@ -21,13 +21,13 @@
             padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             text-align: center;
-            max-width: 400px; /* Adjusted max-width */
-            width: 90%; /* Adjusted width */
+            max-width: 400px;
+            width: 90%;
         }
         h2 {
             margin-bottom: 20px;
-            font-family: Arial Black, sans-serif; /* Changed font style */
-            color: #333; /* Changed font color */
+            font-family: Arial Black, sans-serif;
+            color: #333;
         }
         form {
             display: flex;
@@ -37,7 +37,7 @@
         label {
             margin-bottom: 10px;
             font-family: 'Times New Roman', Times, serif; /* Changed font style */
-            color: #555; /* Changed font color */
+            color: #555;
         }
         input[type="number"] {
             padding: 10px;
@@ -46,14 +46,14 @@
             margin-bottom: 10px;
         }
         button {
-            background-color: #4169E1; /* Changed button color to blue */
+            background-color: #4169E1;
             color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-family: Arial, sans-serif; /* Changed font style */
-            width: 100%; /* Adjusted width */
+            font-family: Arial, sans-serif;
+            width: 100%; 
         }
         button:hover {
             background: linear-gradient(45deg, #4169E1, #6495ED); /* Changed button hover color */
